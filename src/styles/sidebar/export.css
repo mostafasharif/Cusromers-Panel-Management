@@ -1,0 +1,32 @@
+div .exportbtn {
+    top: 51rem;
+    left: 5rem;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.exportbtn div:hover {
+    color: #FFFFFF;
+    transform: translateY(-6px);
+}
+.exportbtn div {
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    width: 11rem;
+    background-color: rgb(29, 143, 80);
+    font-weight: 700;
+    padding: 10px;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    position: relative;
+}
+.boxbtn {
+    display: grid;
+    margin: 2rem;
+    position: relative;
+}

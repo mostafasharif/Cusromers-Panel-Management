@@ -1,0 +1,122 @@
+/* modal responsive */
+@media screen and (max-width: 1350.98px) {
+
+    .send-btn {
+        position: relative;
+        width: 10rem;
+        background-color: aquamarine;
+        border: none;
+        border-radius: 5px;
+        color: black;
+        font-weight: 500;
+        height: 2rem;
+        left: 0 !important;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media screen and (max-width: 991.98px) {
+    .whole_modal-sms {
+        width: 36rem !important;
+    }
+
+    .number-list {
+        width: 100% !important;
+    }
+
+
+
+
+    .selected-sms-send {
+        margin-top: 30rem;
+    }
+
+
+    #transition-modal-title-selected {
+        width: 40rem !important;
+    }
+
+    .send-btn {
+        position: relative;
+        width: 8rem;
+        background-color: aquamarine;
+        border: none;
+        border-radius: 5px;
+        color: black;
+        font-weight: 500;
+        left: 4rem;
+        height: 2rem;
+        margin-top: 27rem;
+        margin-bottom: 2rem;
+        /* margin-left: 4rem; */
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) {
+
+
+    #transition-modal-title-selected {
+        width: 30rem !important;
+    }
+
+    .whole_modal-sms {
+        width: 26rem !important;
+    }
+
+
+    .whole_modal-sms-row {
+        width: 10rem;
+        overflow: scroll;
+        margin-top: 32rem;
+        left: 3rem !important;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) {
+
+    #transition-modal-title-selected {
+        width: 20rem !important;
+    }
+
+    .whole_modal-sms {
+        width: 16rem !important;
+    }
+
+    .whole_modal-sms-row {
+        width: auto;
+        overflow: unset !important;
+        margin-top: 32rem;
+        left: 3rem !important;
+    }
+
+}
+
+/* small devices for social responsive */
+@media screen and (max-width: 359.98px) {
+    #transition-modal-title-selected {
+        width: 12rem !important;
+    }
+
+    .whole_modal-sms {
+        width: 8rem !important;
+    }
+
+    .whole_modal-sms-row {
+        width: auto !important;
+        overflow: unset !important;
+        margin-top: 20rem !important;
+        left: 3rem !important;
+    }
+
+}

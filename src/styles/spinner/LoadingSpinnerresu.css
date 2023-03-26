@@ -1,0 +1,10 @@
+.spinnerresu {
+    left: 25.2rem !important;
+    top: 10px !important;
+    position: absolute;
+    width: 60px !important;
+    height: 50px !important;
+    border-radius: 100%;
+    color: black;
+    background-color: #FAFAFA;
+}

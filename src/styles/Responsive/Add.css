@@ -1,0 +1,82 @@
+/* Medium devices (tablets, less than 992px) */
+@media screen and (max-width: 991.98px) {
+
+    #transition-modal-title0 {
+        width: 40rem !important;
+        overflow: auto;
+    }
+
+    .whole_modal-sms-row {
+        width: 15rem;
+        overflow: scroll;
+        margin-top: 32rem;
+        left: 3rem !important;
+    }
+
+    .profileimg-row img {
+        width: 34rem !important;
+        top: 0 !important;
+    }
+
+    .modalimg-row {
+        position: relative !important;
+    }
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) {
+
+    #transition-modal-title0 {
+        width: 30rem !important;
+        overflow: auto;
+    }
+
+    .profileimg-row img {
+        width: 24.5rem !important;
+        top: 0 !important;
+    }
+
+    .modalimg-row {
+        position: relative !important;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) {
+
+    #transition-modal-title0 {
+        width: 24rem !important;
+        overflow: auto;
+    }
+
+
+    .profileimg-row img {
+        width: 18rem !important;
+        top: 0 !important;
+    }
+
+    .modalimg-row {
+        position: relative !important;
+    }
+
+}
+
+/* small devices for social responsive */
+@media screen and (max-width: 359.98px) {
+    #transition-modal-title0 {
+        width: 16rem !important;
+        overflow: auto;
+    }
+
+    .profileimg-row img {
+        width: 10rem !important;
+        height: 14rem !important;
+        top: 0 !important;
+    }
+
+    .modalimg-row {
+        position: relative !important;
+    }
+}

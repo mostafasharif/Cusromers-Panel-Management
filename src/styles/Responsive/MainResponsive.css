@@ -1,0 +1,1281 @@
+@media screen and (min-width: 1600px) {
+    div .burger-menu {
+        display: none !important;
+    }
+
+    .small-checkbox {
+        display: none !important;
+    }
+}
+
+/* Sidebar Changes In height devices Less Than 950px */
+@media screen and (max-height: 950.98px) {
+    .whole-sidebar {
+        height: 59rem;
+        width: 20rem;
+        background-color: #8e8e8e42;
+        position: relative;
+        display: flex;
+        left: 1rem;
+        top: 1rem;
+        border-radius: 5px;
+        color: #ffffff;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: baseline;
+        float: left;
+    }
+
+    div .exportbtn {
+        top: 50rem;
+        left: 4rem;
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Larger devices (desktops, less than 1600px) */
+@media screen and (max-width: 1599.98px) {
+    table {
+        border: 0;
+        margin: 5px;
+        width: 99%;
+        top: 6rem;
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    .social-medias {
+        display: flex;
+        position: relative;
+        margin: -13rem 0 0 -1.5rem;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+        float: right;
+        height: 3rem;
+    }
+
+    .whole-sidebar {
+        display: none;
+    }
+
+    table tr {
+        border-bottom: 10px solid #000000b8;
+        border-radius: 0 9rem 0 6rem !important;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .npbtn {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        position: static;
+        margin-top: 2.5rem;
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    tr td:first-child {
+        height: 11rem;
+    }
+
+    tr td:first-child::before {
+        height: 11rem;
+        content: "" !important;
+    }
+
+    .result-btn {
+        position: relative;
+        margin: 0 1rem;
+        top: 1.4rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div .sms-row-btn {
+        position: relative;
+        display: contents;
+    }
+
+    .profile-data-image img {
+        width: 8.5rem;
+        height: 8.5rem;
+        float: left;
+    }
+
+    .whole-sidebar-open {
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+        right: 1rem;
+        position: relative;
+        float: right;
+        margin: 0 2rem 0 0;
+        background-color: #b7b7b7;
+    }
+
+    .burger-menu {
+        display: flex;
+        position: absolute;
+        border: none;
+        border-radius: 0 11px 0 11px;
+        background-color: #ff6262;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        width: 54px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem !important;
+        margin-right: 1rem;
+        color: floralwhite;
+        z-index: 1000;
+    }
+
+    .whole-burger {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    div .exportbtn {
+        top: 51rem;
+        left: 4rem;
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .checkboxsms {
+        display: table-row;
+        position: relative;
+        height: 22px;
+        width: 22px;
+        cursor: pointer;
+        margin: 0 1rem;
+    }
+
+}
+
+/* modal responsive */
+@media screen and (max-width: 1350.98px) {
+
+    .profile-data-image img {
+        width: 7.5rem;
+        height: 7.5rem;
+        float: left;
+        margin-top: 1rem;
+    }
+
+    .profileimg img {
+        background-color: #e7e7ee;
+        height: 30rem;
+        width: 40rem;
+        position: relative;
+        /* margin-top: 0.5rem; */
+        /* left: 0; */
+        display: flex;
+        border: 1px solid #070707;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        flex-shrink: 1rem;
+        align-items: center;
+    }
+
+    /* .whole_modal-sms {
+        display: grid;
+        align-content: space-between;
+        justify-content: space-around;
+        align-items: start;
+        right: 0;
+        left: -3.5rem;
+        margin-top: 29rem !important;
+        position: relative;
+        justify-items: start;
+        flex-wrap: wrap;
+        max-width: 45rem;
+        grid-template-columns: 22rem;
+        line-height: 2rem;
+    } */
+
+
+
+    /* .sendercss {
+        width: 12rem;
+        position: absolute;
+        top: 2.5rem;
+        left: 11rem;
+        border-radius: 5px;
+    } */
+
+
+    /* #transition-modal-title0,
+    #transition-modal-title-selected {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50rem;
+        background-color: #fff;
+        box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+        padding: 32px;
+        height: 40rem;
+        position: absolute;
+        overflow: auto;
+    } */
+
+
+    .whole-modal {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        /* justify-items: start; */
+        flex-wrap: nowrap;
+        /* max-width: 45rem; */
+        /* left: 12rem; */
+        width: auto;
+        /* margin: 0 auto; */
+        margin-top: 7rem;
+        /* grid-template-columns: auto; */
+        line-height: 2rem;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    #transition-whole-modal {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        background-color: #fff;
+        box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+        padding: 32px;
+        height: 40rem;
+        position: absolute;
+        overflow: auto;
+    }
+
+    /* .profile-image-modal img {
+        background-color: #e7e7ee;
+        height: 30rem;
+        width: 55rem;
+        position: relative;
+        margin-top: 0;
+        left: -1rem;
+        border: 1px solid #070707;
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* top: -2rem; */
+
+    .profileimage-modal img {
+        background-color: #e7e7ee;
+        height: 30rem;
+        width: 48rem;
+        position: relative;
+        margin-top: 0;
+        left: -2rem;
+        border: 1px solid #070707;
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: -2rem;
+    }
+
+    /* div .modalimg {
+    position: relative;
+    top: 3rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: stretch;
+} */
+
+    .modalimg {
+        left: 1rem;
+        position: relative;
+        top: 3rem;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: stretch;
+    }
+
+    .Tab-Lables {
+        overflow-y: scroll;
+    }
+
+    .Data-show {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 0.5rem;
+        grid-column-gap: 5%;
+        width: auto;
+        /* top: 5rem; */
+        /* left: 1rem; */
+        /* right: 3%; */
+        position: relative;
+        overflow-x: scroll;
+        align-content: center;
+        align-items: start;
+        justify-items: start;
+        justify-content: end;
+    }
+
+    /* .send-btn {
+        position: relative;
+        width: 10rem;
+        background-color: aquamarine;
+        border: none;
+        border-radius: 5px;
+        color: black;
+        font-weight: 500;
+        height: 2rem;
+        left: 0 !important;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    } */
+
+
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media screen and (max-width: 991.98px) {
+    table {
+        border: 0;
+        margin: 6px;
+        width: 97%;
+        top: 6rem;
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    .social-medias {
+        display: flex;
+        position: relative;
+        margin: -13rem 0 0 -1.5rem;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 80%;
+        align-content: center;
+        align-items: center;
+        height: 4rem;
+        flex-direction: row;
+    }
+
+    .whole-sidebar {
+        display: none ;
+    }
+
+    table tr {
+        border-bottom: 3px solid #000000b8;
+        border-radius: 5rem !important;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    tr td:first-child {
+        height: 11rem;
+    }
+
+    tr td:first-child::before {
+        height: 11rem;
+        content: "" !important;
+    }
+
+    /* .result-btn {
+        position: relative;
+        margin: 0 auto;
+        top: 2.4rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    /* #transition-modal-title0,
+    #transition-modal-title-selected {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50rem;
+        background-color: #fff;
+        box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+        padding: 32px;
+        height: 40rem;
+        position: absolute;
+        overflow: auto;
+    } */
+
+    div .sms-row-btn {
+        position: relative;
+        display: contents;
+    }
+
+    .profile-data-image img {
+        width: 7.5rem;
+        height: 7.5rem;
+        float: left;
+        margin-top: 1rem;
+    }
+
+    /* .whole_modal-sms {
+        display: grid;
+        align-content: space-between;
+        justify-content: space-around;
+        align-items: start;
+        right: 0;
+        left: -3.5rem;
+        margin-top: 18rem !important;
+        position: relative;
+        justify-items: start;
+        flex-wrap: wrap;
+        max-width: 45rem;
+        grid-template-columns: 22rem;
+        line-height: 2rem;
+    } */
+
+    /* .whole_modal-sms-row {
+        align-content: space-around;
+        justify-content: center;
+        align-items: stretch;
+        right: 0;
+        margin-top: auto;
+        position: relative;
+        justify-items: stretch;
+        flex-wrap: wrap;
+        max-width: 45rem;
+        top: 2rem;
+        display: flex;
+        left: -3rem;
+    } */
+
+    /* .whole_modal-sms-row textarea {
+        height: 17rem;
+        width: 20rem;
+        top: 8rem;
+        position: absolute;
+        left: 3rem;
+    } */
+
+    .number-list {
+        width: 100%;
+    }
+
+    /* .sendercss {
+        width: 12rem;
+        position: absolute;
+        top: 2.5rem;
+        left: 11rem;
+        border-radius: 5px;
+    } */
+
+
+    #transition-whole-modal {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 94%;
+        background-color: #fff;
+        box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+        padding: 32px;
+        height: 40rem;
+        position: absolute;
+        overflow: auto;
+    }
+
+
+
+    .profile-image-modal img {
+        background-color: #e7e7ee;
+        height: 30rem;
+        width: 40rem;
+        position: relative;
+        margin-top: 0;
+        left: -1rem;
+        border: 1px solid #070707;
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* top: -2rem; */
+    }
+
+    div .modalimg {
+        position: relative;
+        top: 3rem;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: stretch;
+    }
+
+    /* .send-btn {
+        position: relative;
+        width: 8rem;
+        background-color: aquamari  ne;
+        border: none;
+        border-radius: 5px;
+        color: black;
+        font-weight: 500;
+        left: 9rem;
+        height: 2rem;
+        margin-top: 26rem;
+        margin-bottom: 2rem;
+
+    } */
+
+    /* .send-btn {
+        position: relative;
+        width: 8rem;
+        background-color: aquamarine;
+        border: none;
+        border-radius: 5px;
+        color: black;
+        font-weight: 500;
+        left: 4rem;
+        height: 2rem;
+        margin-top: 27rem;
+        margin-bottom: 2rem;
+    } */
+
+
+
+    .Data-show {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 0.5rem;
+        grid-column-gap: 5%;
+        width: auto;
+        /* top: 5rem; */
+        /* left: 1rem; */
+        /* right: 3%; */
+        position: relative;
+        overflow-x: scroll;
+        align-content: center;
+        align-items: start;
+        justify-items: start;
+        justify-content: end;
+    }
+
+
+    /* .whole_modal-sms {
+        width: 36rem !important;
+    }
+
+    .number-list {
+        width: 100% !important;
+    }
+
+
+    .selected-sms-send {
+        margin-top: 30rem;
+    }
+
+
+    #transition-modal-title-selected {
+        width: 40rem !important;
+    } */
+
+    /* #transition-modal-title0 {
+        width: 40rem !important;
+        overflow: auto;
+    }
+
+    .whole_modal-sms-row {
+        width: 15rem;
+        overflow: scroll;
+        margin-top: 32rem;
+        left: 3rem !important;
+    }
+
+    .profileimg-row img {
+        width: 34rem !important;
+        top: 0 !important;
+    }
+
+    .modalimg-row {
+        position: relative !important;
+    } */
+
+}   
+
+/* Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) {
+
+    table {
+        border: 0;
+        margin: 6px;
+        width: 97%;
+        top: 6rem;
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    .social-medias {
+        display: flex;
+        position: relative;
+        margin: -13rem 0 0 -1.5rem;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 80%;
+        align-content: center;
+        align-items: center;
+        height: 4rem;
+        flex-direction: row;
+    }
+
+    .whole-sidebar {
+        display: none;
+    }
+
+    table tr {
+        border-bottom: 3px solid #000000b8;
+        border-radius: 5rem !important;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    tr td:first-child {
+        height: 11rem;
+    }
+
+    tr td:first-child::before {
+        height: 11rem;
+        content: "" !important;
+    }
+
+    .result-btn {
+        position: relative;
+        margin: 0 auto;
+        top: 1.4rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div .sms-row-btn {
+        position: relative;
+        display: contents;
+    }
+
+    .profile-data-image img {
+        width: 5rem;
+        height: 5rem;
+        float: left;
+        margin-top: 1rem;
+    }
+
+
+
+    .whole-modal {
+        display: grid;
+        align-content: space-between;
+        justify-content: start;
+        position: relative;
+        justify-items: start;
+        flex-wrap: wrap;
+        /* max-width: 45rem; */
+        grid-template-columns: 22rem;
+        line-height: 2rem;
+        align-items: start;
+    }
+
+
+    #transition-whole-modal {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        background-color: #fff;
+        box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+        padding: 32px;
+        height: 40rem;
+        position: absolute;
+        overflow: auto;
+    }
+
+    .profile-image-modal img {
+        background-color: #e7e7ee;
+        height: 30rem;
+        width: 32rem;
+        position: relative;
+        margin-top: 0;
+        left: -1rem;
+        border: 1px solid #070707;
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* top: -2rem; */
+    }
+
+    .npbtn {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        position: static;
+        /* margin-top: 4rem; */
+        margin-left: 1rem;
+    }
+
+    .Data-show {
+        display: flex;
+        /* grid-template-columns: auto auto; */
+        /* grid-row-gap: 0.5rem; */
+        /* grid-column-gap: 6%; */
+        width: auto;
+        left: 0;
+        top: 2rem;
+        position: relative;
+        overflow-x: scroll;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        justify-items: start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .whole_modal-sms {
+        position: absolute;
+        height: 28rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        justify-content: space-evenly;
+        top: 5rem;
+        left: 2rem;
+        width: 25rem;
+        align-items: stretch;
+    }
+
+    /* #transition-modal-title-selected {
+        width: 30rem !important;
+    }
+
+    .whole_modal-sms {
+        width: 26rem !important;
+    }
+
+
+    .whole_modal-sms-row {
+        width: 10rem;
+        overflow: scroll;
+        margin-top: 32rem;
+        left: 3rem !important;
+    } */
+
+    #transition-modal-title0 {
+        width: 30rem !important;
+        overflow: auto;
+    }
+
+    .profileimg-row img {
+        width: 24.5rem !important;
+        top: 0 !important;
+    }
+
+    .modalimg-row {
+        position: relative !important;
+    }
+
+
+}   
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) {
+    table {
+        border: 0;
+        margin: 6px;
+        width: 98%;
+        top: 8rem;
+    }
+    .whole-modal {
+        display: grid;
+        align-content: space-between;
+        justify-content: start;
+        position: relative;
+        justify-items: start;
+        flex-wrap: wrap;
+        /* max-width: 45rem; */
+        grid-template-columns: 22rem;
+        line-height: 2rem;
+        align-items: start;
+    }
+
+    #transition-whole-modal {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        background-color: #fff;
+        box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+        padding: 32px;
+        height: 40rem;
+        position: absolute;
+        overflow: auto;
+    }
+
+    .profile-image-modal img {
+        background-color: #e7e7ee;
+        height: 20rem;
+        width: 20rem;
+        position: relative;
+        margin-top: 0;
+        left: -1rem;
+        border: 1px solid #070707;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    /* #transition-modal-title-selected {
+        width: 20rem !important;
+    } */
+
+    /* .whole_modal-sms {
+        width: 16rem !important;
+    } */
+
+    /* 
+    .whole_modal-sms-row {
+        width: 18rem !important;
+        overflow: unset !important;
+        margin-top: 32rem;
+        left: 3rem !important;
+    } */
+
+
+
+    /* #transition-modal-title0 {
+        width: 24rem !important;
+        overflow: auto;
+    }
+
+
+    .profileimg-row img {
+        width: 18rem !important;
+        top: 0 !important;
+    }
+
+    .modalimg-row {
+        position: relative !important;
+    } */
+
+
+}   
+
+/* small devices for social responsive */
+@media screen and (max-width: 359.98px) {
+    table {
+        border: 0;
+        margin: 6px;
+        width: 98%;
+        top: 10rem;
+    }
+    .social-medias {
+        display: grid;
+        position: relative;
+        margin: -12rem -0;
+        width: 100%;
+        grid-template-columns: 3rem 4rem 3rem 3rem;
+        align-items: center;
+        height: 4rem;
+        flex-direction: row;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        gap: 3px;
+    }
+
+    tr td:first-child {
+        height: 16rem;
+    }
+
+    .profile-data-image img {
+        width: 5rem;
+        height: 5rem;
+        float: left;
+        /* margin-top: 1rem; */
+        margin: 0 25%;
+    }
+
+
+    .whole-modal {
+        display: grid;
+        align-content: space-between;
+        justify-content: start;
+        position: relative;
+        justify-items: start;
+        flex-wrap: wrap;
+        /* max-width: 45rem; */
+        grid-template-columns: 22rem;
+        line-height: 2rem;
+        align-items: start;
+        overflow: scroll;
+    }
+
+
+    #transition-whole-modal {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        background-color: #fff;
+        box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+        padding: 32px;
+        height: 40rem;
+        position: absolute;
+        overflow: auto;
+    }
+
+    .profile-image-modal img {
+        background-color: #e7e7ee;
+        height: 13rem;
+        width: 13rem;
+        position: relative;
+        margin-top: 0;
+        left: -1rem;
+        border: 1px solid #070707;
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* top: -2rem; */
+    }
+
+    .boxphone {
+        width: 7rem;
+        position: relative;
+        display: inline list-item;
+        list-style: none;
+        font-weight: 400;
+        padding: 0 1rem;
+        left: 3rem;
+        background-color: #a39be98a;
+        color: black;
+        border-radius: 7px;
+        margin: 2rem 0 0 -10rem;
+    }
+
+
+    /* .senderp {
+        left: 3rem;
+        position: absolute;
+        top: 4.5rem;
+    } */
+
+    /* .sendercss {
+        width: 12rem;
+        position: absolute;
+        top: 6.5rem;
+        left: 3rem;
+        border-radius: 5px;
+    } */
+    /* 
+    .whole_modal-sms textarea {
+        top: 12rem;
+        position: absolute;
+        display: flex;
+        width: 13rem;
+        left: 2rem;
+        height: 18rem !important;
+    } */
+    /* 
+    .textep {
+        left: 3rem;
+        position: absolute;
+        top: 9.5rem;
+    } */
+
+    /* .send-btn {
+        position: relative;
+        width: 8rem;
+        background-color: aquamarine;
+        border: none;
+        border-radius: 5px;
+        color: black;
+        font-weight: 500;
+        left: 8rem;
+        height: 2rem;
+        margin-top: 31rem;
+        margin-bottom: 2rem;
+    } */
+    /* .sendercss {
+        width: 11rem;
+        position: absolute;
+        top: 6.5rem;
+        left: 3rem;
+        border-radius: 5px;
+    } */
+
+    /* .whole_modal-sms-row textarea {
+        height: 17rem;
+        width: 11rem;
+        top: 12rem;
+        position: absolute;
+        left: 3rem;
+    } */
+
+    /* .send-btn {
+        position: relative;
+        width: 8rem;
+        background-color: aquamarine;
+        border: none;
+        border-radius: 5px;
+        color: black;
+        font-weight: 500;
+        height: 2rem;
+        margin-top: 31rem;
+        margin-bottom: 2rem;
+        margin-left: 4rem;
+    } */
+
+    /* .profileimg img {
+        background-color: #e7e7ee;
+        height: 14rem;
+        width: 10rem;
+        position: absolute;
+        margin-top: 5rem;
+        left: 0;
+        border: 1px solid #070707;
+        background-repeat: no-repeat;
+        background-size: contain;
+    } */
+
+    .Tab-Lables {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        border: 1px so;
+        color: black;
+        overflow: scroll;
+    }
+
+    /* #transition-modal-title0,
+    #transition-modal-title-selected {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 14rem;
+        background-color: #fff;
+        box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+        padding: 32px;
+        height: 40rem;
+        position: absolute;
+        overflow: auto;
+    } */
+
+    .Data-show {
+        display: flex;
+        /* grid-template-columns: auto auto; */
+        /* grid-row-gap: 0.5rem; */
+        /* grid-column-gap: 6%; */
+        width: auto;
+        left: 0;
+        top: 3rem;
+        height: fit-content;
+        position: relative;
+        /* overflow-x: scroll; */
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+        justify-items: start;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    /* #transition-modal-title-selected {
+        width: 12rem !important;
+    } */
+
+    /* .whole_modal-sms {
+        width: 8rem !important;
+    } */
+
+    .send-btn {
+        width: 8rem !important;
+    }
+
+
+    #transition-modal-title0 {
+        width: 16rem !important;
+        overflow: auto;
+    }
+
+    /* .whole_modal-sms-row {
+        width: 10rem !important;
+        overflow: unset !important;
+        margin-top: 20rem;
+        left: 3rem !important;
+    } */
+
+    .profileimg-row img {
+        width: 10rem !important;
+        height: 14rem !important;
+        top: 0 !important;
+    }
+
+    .modalimg-row {
+        position: relative !important;
+    }
+
+}   

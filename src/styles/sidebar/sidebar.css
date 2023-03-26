@@ -1,0 +1,555 @@
+.whole-sidebar {
+    height: 59rem;
+    width: 20rem;
+    background-color: #8e8e8e42;
+    position: fixed;
+    display: flex;
+    left: 1rem;
+    top: 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+    float: left;
+    /*box-shadow: 7px 7px 14px#cccccc;*/
+}
+
+h5 {
+    padding-top: 10px;
+}
+
+
+.bottom-btn {
+    position: absolute;
+    margin-top: 46rem;
+    width: 11rem;
+    text-align: center;
+    /* border-radius: 5px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log-out {
+    position: absolute;
+    bottom: 2rem;
+}
+
+.log-out img {
+    height: 30px;
+    /* margin-left: -8px; */
+    position: relative;
+    /* margin-top: 4rem; */
+    cursor: pointer;
+}
+
+.log-out img:hover {
+    transform: translateY(-5px);
+    transition: ease-in-out .3s;
+}
+
+.btn-blue {
+    background-color: #449EF0;
+    color: white;
+    text-align: center;
+}
+
+input {
+    background-color: white;
+}
+
+.name-btn {
+    position: absolute;
+    margin: 6rem 0 0 0;
+    left: 2rem;
+    width: 16rem;
+    background-color: white;
+    border: 3px solid #FFEEEEEE;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.job-btn {
+    position: absolute;
+    margin: 9rem 0 0 0;
+    left: 2rem;
+    width: 16rem;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.phone-btn {
+    position: absolute;
+    margin: 3rem 0 0 0;
+    left: 2rem;
+    width: 16rem;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.location-btn {
+    position: absolute;
+    margin: 12rem 0 0 0;
+    left: 2rem;
+    width: 16rem;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.age-btn {
+    position: absolute;
+    margin: 15rem 0 0 0;
+    left: 2rem;
+    width: 7rem;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+}
+
+#Gender {
+    position: absolute;
+    margin: 15rem 0 0 0;
+    left: 11rem;
+    width: 7rem;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+}
+
+/* #Location {
+    position: absolute;
+    margin: 0;
+    left: 2rem;
+    width: 16rem;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+} */
+
+.s-hr {
+    margin-top: 17rem;
+    position: absolute;
+    display: inline;
+    width: 100%;
+    height: 8px;
+    left: 0;
+}
+
+/* .logos {
+    margin-top: 17rem;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: baseline;
+    left: 2rem;
+    width: 16rem;
+    background-color: rgba(255, 255, 255, 0.94) !important;
+    border-radius: 0 0 8rem 8rem;
+    border: 1px solid #FFEEEEEE !important;
+    padding-bottom: 2rem;
+} */
+
+
+.logos {
+    margin-top: 17rem;
+    position: absolute;
+    display: grid;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    left: 2rem;
+    width: 16rem;
+    height: 28rem;
+    background-color: rgba(255, 255, 255, 0.94) !important;
+    border-radius: 0 0 8rem 8rem;
+    border: 1px solid #FFEEEEEE !important;
+    /* padding-bottom: 2rem; */
+    /* justify-items: center; */
+    grid-template-columns: auto auto auto;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    justify-content: space-evenly;
+    /* justify-items: center; */
+    /* grid-template-columns: auto auto auto; */
+    flex-direction: row;
+    align-items: center;
+    top: 0;
+    position: absolute;
+}
+
+/* .icons{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.icons img {
+    height: 70px;
+    padding: 16px;
+    margin: 5px 6.5px;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    /* transform: translateY(-2.5px); */
+    transform: translatex(2.5px);
+
+    transition: ease-in-out .3s;
+}
+
+.form-check-input {
+    display: flex;
+    position: absolute;
+}
+
+.out {
+    border-radius: 10px;
+    margin-top: 51.5rem;
+    position: absolute;
+    width: 160px;
+    left: 25%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    display: flex;
+    align-content: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.logo {
+    height: 25px;
+    width: auto;
+    position: absolute;
+    margin: 14px 84px 0 0;
+}
+
+.form-select {
+    margin-top: 14rem;
+    position: absolute;
+    width: 17rem;
+    left: 2rem;
+    height: 2rem;
+}
+
+.tiktak {
+    margin-left: 1rem !important;
+}
+
+p {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input, select {
+    border: 2px solid #FFEEEEEE !important;
+}
+
+input:focus {
+    outline: none;
+}
+
+.log-out p:hover {
+    color: #969595;
+    transition: ease-in-out all .3s;
+}
+
+.clear {
+    font-weight: 700;
+    color: #000000;
+    background: #cccccc;
+    /*background: linear-gradient(90deg, rgba(232, 108, 7, 0.94) 0%, rgba(255, 153, 0, 0.75) 100%);*/
+    border: none;
+    border-radius: 5px;
+    /*box-shadow: 12px 12px 24px rgba(253, 196, 7, 0.24);*/
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 7px !important;
+    width: 5rem;
+}
+
+.clear:hover {
+    color: #FFFFFF;
+    transform: translateY(-4px);
+}
+
+.clear:hover::before, button:focus::before {
+    opacity: 1;
+}
+
+.clear:hover::after, .Clear:focus::after {
+    animation: none;
+    display: none;
+}
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    font-weight: 700;
+    color: #ffffff;
+    background: rgb(52, 220, 161);
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 7px !important;
+    width: 5rem;
+}
+
+.login-button-down-fuck{
+    position: relative;
+    padding: 12px !important;
+}
+
+.button:hover {
+    color: #313133;
+    transform: translateY(-4px);
+}
+
+.button:hover::before, button:focus::before {
+    opacity: 1;
+}
+
+button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+}
+
+.form-controll {
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 2px solid rgb(140, 134, 134) !important;
+    background: none !important;
+    font-weight: 500 !important;
+    width: 16rem !important;
+    transition: .2s !important;
+    border-radius: 0 !important;
+}
+
+.form-controll:active,
+.form-controll:focus,
+.form-controll:hover {
+    outline: none;
+    border-bottom-color: #6A679E;
+}
+
+.age-f-con {
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 2px solid rgb(140, 134, 134) !important;
+    background: none !important;
+    font-weight: 500 !important;
+    width: 7rem !important;
+    transition: .2s !important;
+    border-radius: 0 !important;
+}
+
+.age-f-con:active, .age-f-con:focus,
+.age-f-con:hover {
+    outline: none;
+    border-bottom-color: #6A679E;
+}
+
+
+.downloadbtn {
+    background-color: rgb(52, 220, 161);
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+
+}
+
+.downloadbtn:hover {
+    background-color: black;
+    color: white;
+    transition: ease-in-out .5s;
+}
+
+.downloadbtn p {
+    color: #FFFFFF;
+}
+
+.formatbtn, .boxbtn {
+    width: 6rem;
+}
+
+.box-button {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    position: absolute;
+    left: 21rem;
+    display: inline;
+}
+.npbtn button {
+    background-color: rgb(238, 238, 238);
+    border: 2px solid #FFEEEEEE;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.npbtn button:hover {
+    color: #969595;
+    transition: ease-in-out all .3s;
+}
+.npbtn {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: right;
+    right: 1rem;
+    top: 1rem;
+    position: absolute;
+}
+.next-btn {
+    border-radius: 3px;
+    margin-left: 1rem;
+}
+.send-button{
+    position: relative!important;
+    right: 1rem!important;
+    background-color: rgba(14, 14, 14, 0.267)!important;
+    color: white!important;
+    border-radius: 3px;
+}
+.send-button:hover{
+    color: #31313349!important;
+    transition: ease-in-out all .3s;
+}
+
+.previous-btn {
+    border-radius: 3px;
+    background-color: white !important;
+}
+
+.user-dash {
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    top: 4rem;
+    align-items: center;
+    right: 10px;
+    margin-left: 22rem;
+}
+.text-area-style{
+    position: relative;
+    height: 20rem;
+    width: 100%;
+}
+.viber-logo{
+    display: none;
+}
+/* .whole-Filter:nth-last-child(1){
+margin-left: 1rem;
+display: inline-block;
+}
+.whole-Filter:nth-last-child(2){
+margin-left: 2rem;
+} */
+.whole-Filter:nth-last-child(3) img{
+padding: 9px;
+}
+
+.form-input:nth-last-child(2) {
+    margin:6rem 0;
+    width: 7.5rem;
+    left: 2rem;
+    
+}
+.form-input:nth-last-child(3){
+    margin:3.5rem 0;
+
+}
+.form-input:nth-last-child(4){
+    margin:.8rem 0 0 0;
+   position: relative;    
+
+}
+.form-input:nth-last-child(5){
+    margin:3.5rem 0 0 0;
+    position: relative;
+}
+.form-input:nth-last-child(6){
+    margin:2.5rem 0 0 0;
+
+}
+
+.option-select:nth-last-child(1){
+    transform: translateX(10px);
+    display: flex;
+    margin: 52px 0 0 0;
+    width: 7.5rem;
+    position: absolute;
+    left: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+.option-select:first-child{
+    position: relative;
+    width: 16rem;
+    left: 2rem;
+    border-radius: 4px;
+}
+

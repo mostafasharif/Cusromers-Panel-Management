@@ -1,0 +1,119 @@
+#transition-whole-modal {
+    top: 50%;
+    left: 55%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 84rem;
+    background-color: #fff;
+    box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    height: 38rem;
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.whole-modal {
+    position: relative;
+    line-height: 2rem;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+
+.top-whole-title img {
+    border: 2px solid #FFFFFF;
+    border-radius: 100%;
+}
+
+.close-btn {
+    position: absolute;
+    height: 34px;
+    width: 34px;
+    top: 3px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.Tab-Lables {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px so;
+    color: black;
+    overflow: auto;
+}
+
+.Data-show {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 0.5rem;
+    grid-column-gap: 6%;
+    width: 61%;
+    right: 1rem;
+    position: fixed;
+    overflow: auto;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: start;
+}
+
+.modalimg {
+    left: 1rem;
+    position: sticky;
+    top: 3rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: stretch;
+}
+
+.profileimg img {
+    background-color: #e7e7ee;
+    height: 28rem;
+    width: 28rem;
+    position: absolute;
+    margin-top: .5rem;
+    left: 0;
+    border: 1px solid #070707;
+}
+
+.data-show-titile {
+    position: relative;
+    display: inline-flex;
+    color: rgb(87, 92, 92);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.top-whole-title {
+    background-color: gray;
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 2.5rem;
+    color: white;
+    padding: 5px 1rem 0;
+}
+
+.top-title-test {
+    background-color: rgb(70,118,237);
+}

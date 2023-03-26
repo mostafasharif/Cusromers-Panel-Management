@@ -1,0 +1,175 @@
+#transition-modal-title-selected {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50rem;
+    background-color: #fff;
+    box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    height: 34rem;
+    position: absolute;
+    overflow: scroll !important;
+}
+
+.top_title-selected {
+    background-color: rgb(51, 157, 15);
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 2.4rem;
+    color: white;
+    padding: 5px 1rem 0;
+}
+
+.sendbtnall {
+    top: 26.5rem;
+    position: absolute;
+    width: 8rem;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+    left: 12rem;
+    height: 2rem;
+}
+
+.sendbtnall:hover {
+    background-color: #000000;
+    color: white;
+    transition: ease-in-out .7s;
+}
+
+/* .modalimg{     left: 1rem;     position: sticky;     top: 3rem;     display: grid;     align-content: center;     justify-content: center;     align-items: center;     justify-items: stretch; } */
+/* .profileimg img {     background-color: #e7e7ee;     height: 28rem;     width: 28rem;     position: relative;     margin-top: .3rem;     left: 2rem;     border: 1px solid #070707;     background-repeat: no-repeat;     background-size: contain; } */
+.whole_modal-sms p>p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 5 !important;
+}
+
+.whole_modal-sms {
+    position: absolute;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    top: 5rem;
+    right: 2rem;
+    width: 25rem;
+    align-items: stretch;
+}
+
+.whole_modal-sms-advance {
+    position: relative;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    /* top: 5rem; */
+    /* right: 2rem; */
+    width: 100%;
+    /* border: 1px solid black; */
+    align-items: stretch;
+}
+
+.sendercssall {
+    border: 1px solid black !important;
+    border-radius: 5px;
+}
+
+.sendercss {
+    border: 2px solid #757575 !important;
+    border-radius: 3px;
+}
+
+.textarea {
+    position: relative;
+    height: 10rem;
+}
+
+.senderp {
+    position: relative;
+}
+
+.send-btn {
+    position: relative;
+    width: 10rem;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+    height: 2rem;
+    left: 0 !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.send-btn:hover {
+    background-color: #000000;
+    color: white;
+    transition: ease-in-out .7s;
+}
+
+.send-button {
+    position: relative !important;
+    right: 1rem !important;
+    background-color: rgba(14, 14, 14, 0.267) !important;
+    color: white !important;
+    border-radius: 3px;
+    height: 2rem;
+    display: none;
+}
+
+.send-button:hover {
+    color: #31313349 !important;
+    transition: ease-in-out all .3s;
+}
+
+.number-list {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: start;
+    margin: 15px 0;
+    background-color: #a39be98a;
+    width: 10rem;
+    height: 32px;
+    border-radius: 5px;
+    color: black;
+}
+
+.number-list:hover {
+    background-color: #000000;
+    color: #fff;
+    transition: ease-in-out 1s;
+}
+
+.result-btn-advance {
+    margin-left: 0;
+    position: fixed;
+    margin: 0 auto;
+}
+
+.textepall {
+    margin-top: 1rem;
+}
+
+/* .disabled:before {     content: "Click Submit To Active";     background-color: #0000008d !important;     color: #ffffff !important;     position: absolute;     display: flex;     flex-direction: row;     flex-wrap: nowrap;     align-content: center;     justify-content: center;     align-items: center;     margin-top: 4rem;     width: 10.5rem;     border-radius:0 0 3px 3px;     font-size: 12px } */
+@import "../../styles/Responsive/SendAll.css"

@@ -1,0 +1,194 @@
+@import "../../styles/Responsive/Add.css";
+/* .boxphone {
+    width: 7rem;
+    position: absolute;
+    display: inline list-item;
+    list-style: none;
+    font-weight: 400;
+    padding: 0 1rem;
+    left: 10rem;
+    background-color: #a39be98a;
+    color: black;
+    border-radius: 7px;
+    margin: 0 auto;
+} */
+.boxphone {
+    font-size: 16px;
+    width: 8rem;
+    position: absolute;
+    display: inline list-item;
+    list-style: none;
+    font-weight: 400;
+    display: flex;
+    /* padding: 0 1rem; */
+    /* left: 10rem; */
+    background-color: #a39be98a;
+    color: black;
+    border-radius: 4px;
+    /* margin: 0 auto; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 700;
+    align-content: center;
+    justify-content: center;
+    height: 22px;
+    align-items: center;
+    right: 0;
+    top: 0;
+}
+
+.boxphone:hover {
+    background-color: #000000;
+    color: #fff;
+    transition: ease-in-out 1s;
+}
+
+div .send-btn-row {
+
+    position: relative;
+    width: 10rem;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+    height: 2rem;
+    left: 0 !important;
+    top: 6px;
+}
+
+.send-btn:hover {
+    background-color: #000000;
+    color: white;
+    transition: ease-in-out .7s;
+}
+
+#transition-modal-title0 {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 60rem;
+    background-color: #fff;
+    box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    height: 38rem;
+    position: absolute;
+    /* overflow: hidden; */
+}
+
+.modalimg-row {
+    left: 1rem;
+    position: sticky;
+    top: 3rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: stretch;
+}
+
+.profileimg-row img {
+    background-color: #e7e7ee;
+    height: 28rem;
+    width: 28rem;
+    position: absolute;
+    margin-top: .5rem;
+    left: 0;
+    top: 3rem;
+    border: 1px solid #070707;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.top_title-sms {
+    background-color: rgb(51, 157, 15);
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 2.4rem;
+    color: white;
+    padding: 5px 1rem 0;
+}
+
+.whole_modal-sms p>p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 5 !important;
+}
+
+/* .sendercss-row {
+    width: 24rem;
+    border-radius: 5px;
+} */
+
+/* .phonep {
+    left: 3rem;
+    position: absolute;
+    top: 0;
+} */
+
+/* .textep-row {
+    left: 3rem;
+    position: absolute;
+    top: 5.5rem;
+} */
+
+/* .senderp-row {
+    left: 3rem;
+    position: absolute;
+    top: 2.5rem;
+} */
+
+/* .whole_modal-sms-row {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: stretch;
+    right: 3rem;
+    top: 5rem;
+    height: 30rem;
+    width: 24rem;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    overflow: hidden;
+} */
+
+
+.whole_modal-sms-row {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: stretch;
+    right: 3rem;
+    top: 5rem;
+    height: 30rem;
+    width: auto;
+    justify-content: center;
+    left: 33rem;
+    align-content: center;
+    overflow: hidden;
+}
+
+.whole_modal-sms-row textarea {
+    height: 17rem;
+    /* width: 24rem; */
+    /* top: 8rem; */
+    /* position: absolute; */
+    /* left: 3rem; */
+}
+.phone-row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}

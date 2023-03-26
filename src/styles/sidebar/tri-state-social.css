@@ -1,0 +1,155 @@
+.tri-state-toggle-buttonzero {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0 solid transparent;
+    color: #727C8F;
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    transition: all 0.5s ease;
+}
+
+.tri-state-toggle-buttontwo {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0 solid transparent;
+    color: #727C8F;
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    transition: all 0.5s ease;
+}
+
+.tri-state-toggle-buttonthree {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0 solid transparent;
+    color: #727C8F;
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    transition: all 0.5s ease;
+}
+
+.tri-state-toggle-buttonfour {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0 solid transparent;
+    color: #727C8F;
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    transition: all 0.5s ease;
+}
+
+.tri-state-toggle-buttonfive {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0 solid transparent;
+    color: #727C8F;
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    transition: all 0.5s ease;
+}
+
+.tri-state-toggle-buttonsix {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0 solid transparent;
+    color: #727C8F;
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    transition: all 0.5s ease;
+}
+
+.tri-state-toggle-buttonseven {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0 solid transparent;
+    color: #727C8F;
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    transition: all 0.5s ease;
+}
+
+.tri-state-toggle-buttoneight {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0 solid transparent;
+    color: #727C8F;
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    transition: all 0.5s ease;
+}
+
+.tri-state-toggle-buttonnine {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0 solid transparent;
+    color: #727C8F;
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    transition: all 0.5s ease;
+}
+
+.tri-state-toggle-buttonten {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0 solid transparent;
+    color: #727C8F;
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    transition: all 0.5s ease;
+}
+.value-select:nth-child(1){
+    background-color: red;
+    border-radius: 100%;
+}
+.value-select:nth-child(2){
+    background-color: rgba(141, 141, 141, 0.801);
+    border-radius: 100%;
+}
+.value-select:nth-child(3){
+    background-color: green;
+    border-radius: 100%;
+}
+
+.value-select-Img{
+    background-color: transparent;
+}

@@ -1,0 +1,41 @@
+.Profile-img-big-show {
+  height: 40rem;
+  width: 40rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+// .Box-img-style{
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   min-width: 50vw;
+//   bgcolor: white;
+//   // border: 2px solid #000;
+//   boxShadow: 24;
+//   p: 4;
+// }
+@media screen and (max-width: 767.98px) {
+  .Profile-img-big-show {
+    height: 20rem;
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 450.98px) {
+  .Profile-img-big-show {
+    height: 16rem;
+    width: 16rem;
+  }
+}
+@media screen and (max-width: 350.98px) {
+  .Profile-img-big-show {
+    height: 12rem;
+    width: 12rem;
+  }
+}
