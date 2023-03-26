@@ -1,5 +1,7 @@
 # Getting Started with Create React App
-
+**
+Before You Start You have To Know That This version Is Not Completed And There Are Some issuses Such As API Connection And Showing DATA , But The Base Is Ok
+**
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
